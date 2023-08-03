@@ -6,12 +6,12 @@
         <table style="font-weight: bold;font-family: system-ui;">
             <tr>
                 <td>Email: </td>
-                <td><asp:TextBox ID="text_email" runat="server" AutoPostBack="false" Width="210px" height="20px"></asp:TextBox></td>
+                <td><asp:TextBox ID="text_email" runat="server" Width="210px" height="20px"></asp:TextBox></td>
             </tr>
 
             <tr>
                 <td>Password: </td>
-                <td><asp:TextBox ID="text_pswd" runat="server" AutoPostBack="false" Width="210px" height="20px"></asp:TextBox></td>
+                <td><asp:TextBox ID="text_pswd" runat="server" Width="210px" height="20px"></asp:TextBox></td>
             </tr>
 
             <tr>
