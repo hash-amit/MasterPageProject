@@ -130,7 +130,7 @@ namespace MasterPageProject
                     cmd.ExecuteNonQuery();
                     con.Close();
                     clearForm();
-                    Response.Redirect("ListOfUsers.aspx");
+                    Response.Redirect("UserLoginForm.aspx");
                 }
                 else if (btn_register.Text == "Update")
                 {
