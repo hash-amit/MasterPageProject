@@ -10,6 +10,11 @@
             </tr>
 
             <tr>
+                <td></td>
+                <td><asp:Label ID="lbl_old_pass" runat="server" Text="" Style="font-weight:normal; color:red;font-size: xx-small;"></asp:Label></asp:TextBox></td>
+            </tr>
+
+            <tr>
                 <td>New Password: </td>
                 <td><asp:TextBox ID="text_new_pass" runat="server" Width="210px" height="20px"></asp:TextBox></td>
             </tr>
@@ -21,7 +26,12 @@
 
             <tr>
                 <td></td>
-                <td><asp:Label ID="lbl_invalid_msg" runat="server" Text="" Style="font-weight:normal; color:red;font-size: xx-small;"></asp:Label></asp:TextBox></td>
+                <td><asp:Label ID="lbl_new_pass" runat="server" Text="" Style="font-weight:normal; color:red;font-size: xx-small;"></asp:Label></asp:TextBox></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td><asp:Label ID="lbl_msg" runat="server" Text="" Style="font-weight:normal; color:red;font-size: xx-small;"></asp:Label></asp:TextBox></td>
             </tr>
 
             <tr>

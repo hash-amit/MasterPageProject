@@ -24,6 +24,15 @@ namespace MasterPageProject
         protected global::System.Web.UI.WebControls.TextBox text_current_pass;
 
         /// <summary>
+        /// lbl_old_pass control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbl_old_pass;
+
+        /// <summary>
         /// text_new_pass control.
         /// </summary>
         /// <remarks>
@@ -42,13 +51,22 @@ namespace MasterPageProject
         protected global::System.Web.UI.WebControls.TextBox text_confirm_pass;
 
         /// <summary>
-        /// lbl_invalid_msg control.
+        /// lbl_new_pass control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbl_invalid_msg;
+        protected global::System.Web.UI.WebControls.Label lbl_new_pass;
+
+        /// <summary>
+        /// lbl_msg control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbl_msg;
 
         /// <summary>
         /// btn_change_pass control.
