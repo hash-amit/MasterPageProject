@@ -16,20 +16,29 @@ namespace MasterPageProject
         protected void Page_Load(object sender, EventArgs e)
         {
             showUserDetails();
+            Response.Cache.SetCacheability(HttpCacheability.NoCache);
+            Response.Cache.SetNoStore();
         }
 
         public void showUserDetails() 
         {
-            con.Open();
-            SqlCommand cmd = new SqlCommand("selectRowByID", con);
-            cmd.CommandType = CommandType.StoredProcedure;
-            cmd.Parameters.AddWithValue("@ID", Convert.ToInt32(Session["user_id"]));
-            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
-            DataTable dt = new DataTable();
-            adapter.Fill(dt);
-            con.Close();
-            gv_list_of_users.DataSource = dt;
-            gv_list_of_users.DataBind();
+            if (Session["user_id"] != null)
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand("selectRowByID", con);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@ID", Convert.ToInt32(Session["user_id"]));
+                SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+                DataTable dt = new DataTable();
+                adapter.Fill(dt);
+                con.Close();
+                gv_list_of_users.DataSource = dt;
+                gv_list_of_users.DataBind();
+            }
+            else 
+            {
+                Response.Redirect("UserLoginForm.aspx");
+            }
         }
     }
 }

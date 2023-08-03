@@ -71,6 +71,7 @@
     <Content Include="Header.ascx" />
     <Content Include="Header_Image.jpg" />
     <Content Include="ListOfUsers.aspx" />
+    <Content Include="Logout.aspx" />
     <Content Include="UserLoginForm.aspx" />
     <Content Include="UserRegistrationForm.aspx" />
     <Content Include="Web.config" />
@@ -104,6 +105,13 @@
     </Compile>
     <Compile Include="ListOfUsers.aspx.designer.cs">
       <DependentUpon>ListOfUsers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Logout.aspx.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logout.aspx.designer.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="User.Master.cs">

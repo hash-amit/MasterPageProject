@@ -3,7 +3,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <center>
-        <asp:Label ID="welcome_msg" Text="Welcome User" runat="server"></asp:Label>
+        <asp:Label ID="welcome_msg" Text="Welcome" runat="server"></asp:Label>
         <asp:GridView ID="gv_list_of_users" runat="server" AutoGenerateColumns="False" CellPadding="4" ForeColor="#333333" GridLines="None">
                     <AlternatingRowStyle BackColor="White" />
                     <Columns>

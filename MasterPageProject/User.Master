@@ -65,7 +65,7 @@
                             <ul class="menu">
                                 <li><a href="welcome.aspx">Home</a></li>
                                 <li><a href="ChangePassword.aspx">Change Password</a></li>
-                                <li><a href="UserLoginForm.aspx">Logout</a></li>
+                                <li><a href="Logout.aspx">Logout</a></li>
                             </ul>
                         </div>
                     </td>
