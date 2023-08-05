@@ -16,7 +16,7 @@
 
             <tr>
                 <td></td>
-                <td><asp:Label ID="lbl_invalid_msg" runat="server" Text="" Style="font-weight:normal; color:red;font-size: xx-small;"></asp:Label></asp:TextBox></td>
+                <td><asp:Label ID="lbl_invalid_msg" runat="server" Text="" Style="font-weight:normal; color:red;font-size: xx-small;"></asp:Label></td>
             </tr>
 
             <tr>
